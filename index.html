@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>
+            Assigment
+        </title>
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+     </head>
+     <body>
+    <div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="row">
+                <div class="col" style="font-size:20px">Billing address</div>
+            </div>
+            <div class="row">
+               <div class="col" >First name</div>
+               <div class="col">Last name</div>
+            </div>
+            <div class="row">
+                <div class="col" ><input type="text" placeholder="Enter First name" class="form-control"></div>
+                <div class="col"><input type="text" placeholder="Enter Last name" class="form-control"></div>
+            </div>
+            <div class="row">
+                <div class="col"><h>User name</h></div>
+                </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group"><input type="submit" value="@" class="btn btn-secondary">
+                    <input type="text" class="form-control" ></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h>Email(optional)</h></div>
+            </div>
+            <div class="row">
+                <div class="col"><input type="email" class="form-control" placeholder="you@example.com"></div>
+                </div>
+            <div class="row">
+                <div class="col">Address</div>
+                </div>
+            <div class="row">
+                    <div class="col"><input type="text" class="form-control" placeholder="1234Main St"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Address2(Optional)</div>
+                        </div>
+                    <div class="row">
+                            <div class="col"><input type="text" class="form-control" placeholder="Apartment or suite"></div>
+                            </div>    
+                    <div class="row">
+                        <div class="col" >Country</div>
+                        <div class="col">State</div>
+                        <div class="col">Zip</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <select name="country" id="country">
+                              <option value="America">America</option>
+                              <option value="India">India</option>
+                              <option value="Pakistan">Pakistan</option>
+                              <option value="Bangladesh">Bangladesh</option>
+                            </select></div>
+                        <div class="col">
+                            <select name="State" id="State">
+                                <option>choose....</option>
+                                <option value="Andhra pradesh">Andhra pradesh</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Kerela">Kerela</option>
+                                <option value="Karnataka">Karnataka</option>
+                              </select></div>
+                        <div class="col">
+                                <select name="State" id="State">
+                                    <option>choose....</option>
+                                    <option value="Andhra pradesh">Andhra pradesh</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Kerela">Kerela</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                  </select></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div><input type="checkbox">Shipping address is the same as my billing address.</label></div>
+                        <div><input type="checkbox"> Save this information for next time.</div>
+                    </div>
+                    <hr>
+                    <div class="row">Payment
+                        <div><input type="radio">Credit card</div>
+                        <div><input type="radio">Debit card</div>
+                        <div><input type="radio">Paypal</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Name on card</div>
+                        <div class="col">Credit card number</div>
+                    </div>
+                    <div class="row">
+                        <div class="col" ><input type="text" class="form-control"></div>
+                        <div class="col" ><input type="text" class="form-control"></div>
+                    </div>
+                    <div class="row" style="font-size:13px;color: grey;"><label >Full name as displayed on card</label></div>
+                    <div class="row">
+                        <div class="col">Expiration</div>
+                        <div class="col">CVV</div>
+                    </div>
+                    <div class="row">
+                        <div class="col"><input type="text" class="form-control"></div>
+                        <div class="col"><input type="text" class="form-control"></div>
+                    </div>
+        </div>
+        <!---new column-->
+        <div class="col-6" style="font-size:20px;color: grey">Your Cart
+        <div class="row">
+            <div class="container" style="border:1px solid rgba(178, 180, 178, 0.333)">
+                <div class="row">
+                    <div class="col">Product name<br><h style="color:grey">brief description</h></div>
+                   <div class="col" style="color:grey">$12</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">Second Product<br><h style="color:grey">brief description</h></div>
+                   <div class="col" style="color:grey">$8</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">Third item<br><h style="color:grey">brief description</h></div>
+                   <div class="col" style="color:grey">$5</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col" style="color:green">Promo code<br><h style="color:green">EXAMPLECODE</h></div>
+                   <div class="col" style="color:grey">-$5</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col" style="color:grey">Total(USD)</div>
+                   <div class="col" style="color:grey"><b>$20</b></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+            <div class="list-group">
+                <li class="list-group-item"><input type="text" placeholder="Promo code"><input type="button" value="Redeem" ></li>      
+            </div>
+        </div>
+            </div>
+            </div>
+        </div>
+        </div>
+<script  src="js/bootstrap.min.js"></script>
+     </body>
+
+</html>
